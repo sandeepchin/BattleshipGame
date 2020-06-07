@@ -27,7 +27,7 @@ java -jar Battleship.jar
 
 When the application runs, click on "File" menu on top left corner and select "New Game".
 
-This will start the game showing the placement of the ships on the 
+This will start the game by showing the placement of ships on the user's grid. Start playing the game by clicking any button on the computer field. The computer will immediately respond by making its move. Continue the game until a winner emerges.
 
 To obtain the individual class files of the application, you can issue the command:
 
