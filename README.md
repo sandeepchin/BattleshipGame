@@ -17,11 +17,11 @@ The user moves are made by the person who is handling the mouse. However, comput
 <li> If the previous strike was successful or there are candidates to explore:
     <ol>
         <li> If previous strike was successful </li>
-            Build new candidates around that location.
+            - Build new candidates around that location.
         <li> If there are candidates to explore </li>
-            pick one of the candidates to fire upon next.
-        Otherwise
-            pick a random target to fire upon.
+            - pick one of the candidates to fire upon next. <br>
+        Otherwise <br>
+            - pick a random target to fire upon.
     </ol>
     </li>
 </ol>
