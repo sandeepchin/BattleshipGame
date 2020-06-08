@@ -30,7 +30,7 @@ The user moves are made by the person who is handling the mouse. However, comput
 
 To run the application issue the following command on the command line:
 
-java -jar Battleship.jar
+<b>java -jar Battleship.jar </b>
 
 When the application runs, click on "File" menu on the top left corner and select "New Game".
 
@@ -38,9 +38,9 @@ This will start the game by showing the placement of ships on the user's grid. S
 
 To obtain the individual class files of the application, you can issue the command:
 
-jar tf Battleship.jar
+<b>jar tf Battleship.jar </b>
 
-The jar file was created using the instructions listed here:
-https://docs.oracle.com/javase/tutorial/deployment/jar/appman.html
+The jar file was created using the instructions listed here: <br>
+https://docs.oracle.com/javase/tutorial/deployment/jar/appman.html <br>
 This page explains how to create an application's entry point.
 
