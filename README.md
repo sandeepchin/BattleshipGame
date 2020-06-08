@@ -32,9 +32,7 @@ To run the application issue the following command on the command line:
 
 <b>java -jar Battleship.jar </b>
 
-When the application runs, click on "File" menu at the top left corner of the window and select "New Game".
-
-This will setup the game by showing both grids. You will also see some grids on the user field marked with blue color showing the placement of ships on the user's grid. Start playing the game by clicking on any button on the computer field. The computer will immediately respond by making its move. Continue playing until a winner emerges. You can start a new game anytime you want.
+When the application runs, click on "File" menu at the top left corner of the window and select "New Game". This will setup the game by showing both grids. You will also see some grids on the user field marked with blue color showing the placement of ships on the user's grid. Start playing the game by clicking on any button on the computer field. The computer will immediately respond by making its move. Continue playing until a winner emerges. You can start a new game anytime you want.
 
 To obtain the individual class files of the application, you can issue the command:
 
