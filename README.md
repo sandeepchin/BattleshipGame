@@ -14,15 +14,15 @@ The user will start the game by firing on computer's grid which is accomplished 
 The user moves are made by the person who is handling the mouse. However, computer moves follow a strategy. The computer strategy involves building a list of unexplored candidates around a previously hit target. If a location was hit, the computer adds four of its neighbors(top, left, bottom, and right) to a list of candidates. It will also ensure that none of these candidates were previously picked. So, the next time it needs to pick a location, it will pick one from this list of candidates. This will allow the computer to pick smarter grid locations instead of random ones. Here is the algorithm used by the computer to pick the next location to fire upon:
 <ol>
     <li> If list of candidates is empty and previous strike was not successful </li>
-        - pick a random location to fire upon 
+        - pick an unexplored random location to fire upon 
 <li> Otherwise 
     <ol>
         <li> If previous strike was successful </li>
             - Add unexplored neighbors of the hit location to list of candidates.
         <li> If list of candidates is not empty</li>
-            - pick the first candidate from the list to fire upon <br>
+            - pick the first candidate in the list to fire upon. <br>
         Otherwise <br>
-            - pick a random location to fire upon.
+            - pick an unexplored random location to fire upon.
     </ol>
     </li>
 </ol>
