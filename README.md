@@ -14,29 +14,33 @@ The user will start the game by firing on computer's grid which is accomplished 
 The user moves are made by the person who is handling the mouse. However, computer moves follow a strategy. The computer strategy involves building a list of unexplored candidates around a previously hit target. If a location was hit, the computer adds four of its neighbors(top, left, bottom, and right) to a list of candidates. It will also ensure that none of these candidates were previously picked. So, the next time it needs to pick a location, it will pick one from this list of candidates. This will allow the computer to pick smarter grid locations instead of random ones. Here is the algorithm used by the computer to pick the next location to fire upon:
 <ol>
     <li> If list of candidates is empty and previous strike was not successful </li>
-        - pick an unexplored random location to fire upon 
+        - pick an unexplored random location. 
 <li> Otherwise 
     <ol>
         <li> If previous strike was successful </li>
             - Add unexplored neighbors of the hit location to list of candidates.
         <li> If list of candidates is not empty</li>
-            - pick the first candidate in the list to fire upon. <br>
+            - pick the first candidate in the list. <br>
         Otherwise <br>
-            - pick an unexplored random location to fire upon.
+            - pick an unexplored random location.
     </ol>
     </li>
 </ol>
-Running the application:
+<h2>Running the application</h2>
 
 To run the application issue the following command on the command line:
 
 java -jar Battleship.jar
 
-When the application runs, click on "File" menu on top left corner and select "New Game".
+When the application runs, click on "File" menu on the top left corner and select "New Game".
 
 This will start the game by showing the placement of ships on the user's grid. Start playing the game by clicking any button on the computer field. The computer will immediately respond by making its move. Continue the game until a winner emerges.
 
 To obtain the individual class files of the application, you can issue the command:
 
 jar tf Battleship.jar
+
+The jar file was created using the instructions listed here:
+https://docs.oracle.com/javase/tutorial/deployment/jar/appman.html
+This page explains how to create an application's entry point.
 
