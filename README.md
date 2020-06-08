@@ -32,15 +32,15 @@ To run the application issue the following command on the command line:
 
 <b>java -jar Battleship.jar </b>
 
-When the application runs, click on "File" menu on the top left corner and select "New Game".
+When the application runs, click on "File" menu at the top left corner of the window and select "New Game".
 
-This will start the game by showing the placement of ships on the user's grid. Start playing the game by clicking any button on the computer field. The computer will immediately respond by making its move. Continue the game until a winner emerges.
+This will setup the game by showing both grids. You will also see some grids on the user field marked with blue color showing the placement of ships on the user's grid. Start playing the game by clicking on any button on the computer field. The computer will immediately respond by making its move. Continue playing until a winner emerges. You can start a new game anytime you want.
 
 To obtain the individual class files of the application, you can issue the command:
 
 <b>jar tf Battleship.jar </b>
 
-The jar file was created using the instructions listed here: <br>
+This jar file was created using the instructions listed here: <br>
 https://docs.oracle.com/javase/tutorial/deployment/jar/appman.html <br>
 This page explains how to create an application's entry point.
 
